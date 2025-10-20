@@ -100,7 +100,7 @@ export async function POST(request: Request) {
       authStrategy: createAppAuth,
       auth: {
         appId: parseInt(GITHUB_APP_ID, 10),
-        GITHUB_PRIVATE_KEY,
+        privateKey: GITHUB_PRIVATE_KEY,
         installationId: parseInt(GITHUB_INSTALLATION_ID, 10),
       },
     });
