@@ -137,7 +137,6 @@ export default function AboutPage() {
                   <img
                     src={member.img}
                     alt={member.name}
-                    fill
                     sizes="112px"
                     className="object-cover"
                   />

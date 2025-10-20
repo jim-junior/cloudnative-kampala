@@ -1,8 +1,6 @@
 import { NextResponse } from "next/server";
 import { Octokit } from "@octokit/core";
 import { createAppAuth } from "@octokit/auth-app";
-import fs from "fs";
-import path from "path";
 
 interface SpeakerPayload {
   name: string;
@@ -86,28 +84,23 @@ export async function POST(request: Request) {
     const {
       GITHUB_APP_ID,
       GITHUB_INSTALLATION_ID,
-      GITHUB_PRIVATE_KEY_PATH,
+      GITHUB_PRIVATE_KEY,
       GITHUB_ISSUE_LABELS,
       GITHUB_ASSIGNEES,
     } = process.env;
 
-    if (!GITHUB_APP_ID || !GITHUB_INSTALLATION_ID || !GITHUB_PRIVATE_KEY_PATH) {
+    if (!GITHUB_APP_ID || !GITHUB_INSTALLATION_ID || !GITHUB_PRIVATE_KEY) {
       return NextResponse.json(
         { error: "Server not configured" },
         { status: 500 }
       );
     }
 
-    const privateKey = fs.readFileSync(
-      path.resolve(GITHUB_PRIVATE_KEY_PATH),
-      "utf8"
-    );
-
     const octokit = new Octokit({
       authStrategy: createAppAuth,
       auth: {
         appId: parseInt(GITHUB_APP_ID, 10),
-        privateKey,
+        GITHUB_PRIVATE_KEY,
         installationId: parseInt(GITHUB_INSTALLATION_ID, 10),
       },
     });
