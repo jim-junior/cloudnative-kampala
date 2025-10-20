@@ -42,7 +42,7 @@ function buildIssueTitle(body: SpeakerPayload): string {
 
 function buildIssueBody(body: SpeakerPayload, meta?: { ip?: string }): string {
   const lines = [
-    `**Speaker proposal submitted via website**`,
+    `## Speaker proposal submitted via website`,
     ``,
     `**Name:** ${body.name || "-"}`,
     `**Email:** ${body.email || "-"}`,
@@ -54,12 +54,12 @@ function buildIssueBody(body: SpeakerPayload, meta?: { ip?: string }): string {
     body.equipment ? `**Equipment / notes:** ${body.equipment}` : null,
     body.links ? `**Links:** ${body.links}` : null,
     `\n`,
-    `**Abstract**`,
+    `## Abstract`,
     `\n`,
     `${(body.abstract || "-").trim()}`,
     `\n`,
     `\n`,
-    `**Speaker bio**`,
+    `## Speaker bio`,
     `\n`,
     `${(body.bio || "-").trim()}`,
     `\n`,
