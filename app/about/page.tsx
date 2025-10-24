@@ -10,7 +10,7 @@ const TEAM = [
     name: "Jim Junior Beingana",
     role: "Lead Organizer",
     bio: "DevOps engineer, community builder, and lead organizer for Cloud Native Kampala.",
-    img: "https://media.licdn.com/dms/image/v2/D4D03AQEBXBs4HS6GQg/profile-displayphoto-scale_400_400/B4DZjYeogtGgAk-/0/1755978568140?e=1762387200&v=beta&t=hcGPFJ8595PxvqEUj1vHRTtalLTw1gt-_iwZC7mIYrc",
+    img: "https://media.licdn.com/dms/image/v2/D4D03AQGOim2uGP1oRQ/profile-displayphoto-crop_800_800/B4DZoV4OiIHYAM-/0/1761303654603?e=1762992000&v=beta&t=stjlYbU_LyJf6RcP52wEM0iWhqUECuPdTutLZZ0L6Lc",
     social: {
       github: "https://github.com/jim-junior",
       twitter: "https://twitter.com/",
