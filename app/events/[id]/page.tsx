@@ -16,7 +16,7 @@ import {
 import { notFound } from "next/navigation";
 import eventsData from "@/assets/events.json";
 
-export function generateEventMetadata({ params }: { params: { id: string } }) {
+export function generateMetadata({ params }: { params: { id: string } }) {
   const event = eventsData.find((item) => item.id === params.id);
 
   if (!event) return null;
