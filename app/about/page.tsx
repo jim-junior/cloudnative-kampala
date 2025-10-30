@@ -34,7 +34,7 @@ const TEAM = [
     name: "Nabasumba Suzan",
     role: "Events and Operations Lead",
     bio: "Tech enthusiast passionate about cloud native technologies and community building.",
-    img: "",
+    img: "https://media.licdn.com/dms/image/v2/D4E03AQG4S88IeRPTaw/profile-displayphoto-scale_400_400/B4EZnylyEzJgAg-/0/1760711616633?e=1763596800&v=beta&t=oOLswA3eUDMwqN83ATyUrngaYCWU2sqxxpQGK2fVV_k",
     social: { github: "#", twitter: "#" },
   },
 ];
