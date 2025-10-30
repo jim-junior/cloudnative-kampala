@@ -1,0 +1,28 @@
+[
+  {
+    "id": "2025-10-30-deploying-ai-models-to-the-cloud",
+    "title": "Deploying AI Models to the Cloud",
+    "date": "2025-10-30",
+    "time": "5:00 PM - 6:00 PM (EAT)",
+    "location": "Online - Google Meet",
+    "description": "Join us for an insightful session on deploying AI models to cloud platforms. Learn best practices, tools, and strategies to effectively manage and scale your AI applications in the cloud.",
+    "fullDescription": "",
+    "imageUrl": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-cncf/events/blob_T5yKHAi",
+    "speakers": [
+      {
+        "name": "Beingana Jim Junior",
+        "title": "DevOps Engineer",
+        "company": "Open Source Contributor",
+        "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQGOim2uGP1oRQ/profile-displayphoto-crop_800_800/B4DZoV4OiIHYAM-/0/176130s3654603?e=1762992000&v=beta&t=stjlYbU_LyJf6RcP52wEM0iWhqUECuPdTutLZZ0L6Lc",
+        "bio": "Beingana Jim Junior is a DevOps Engineer and an active Open Source Contributor with a passion for cloud technologies and AI deployments. With extensive experience in managing cloud infrastructure..",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/jim-junior-beingana/"
+      }
+    ],
+    "attendeeCount": 33,
+    "tags": ["AI", "Cloud Computing", "DevOps"],
+    "status": "past",
+    "slidesUrl": "https://docs.google.com/presentation/d/1U0VBfS6ve2p-Pf72pO45Ez9schC1KZmnOXZEzU67Ri4/edit?usp=sharing",
+    "recordingUrl": "https://drive.google.com/file/d/1re9Pq8cCQoEToPSnOCY1auM7ahFoocTh/preview"
+  }
+]

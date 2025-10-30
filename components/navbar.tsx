@@ -6,6 +6,7 @@ import cncgIcon from "@/public/cncg-icon-color.svg";
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
+  { href: "/events", label: "Events" },
   { href: "/become-a-speaker", label: "Speak" },
   { href: "/about", label: "About" },
 ];
